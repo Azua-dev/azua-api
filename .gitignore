@@ -10,7 +10,6 @@ logs/
 *.log
 
 Azure and Google Cloud credentials
-*.json
 *.pem
 *.crt
 
@@ -22,8 +21,11 @@ IDE and editor files
 .vscode/
 .idea/
 *.iml
-.sublime
+.sublime/
 
 Build and dist files
 /dist
 /build
+
+!package-lock.json
+!package.json
