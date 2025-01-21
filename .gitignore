@@ -1,0 +1,29 @@
+Node.js and npm files
+node_modules/
+npm-debug.log
+
+Environment variables
+.env
+
+Logs
+logs/
+*.log
+
+Azure and Google Cloud credentials
+*.json
+*.pem
+*.crt
+
+Miscellaneous
+.DS_Store
+Thumbs.db
+
+IDE and editor files
+.vscode/
+.idea/
+*.iml
+.sublime
+
+Build and dist files
+/dist
+/build
